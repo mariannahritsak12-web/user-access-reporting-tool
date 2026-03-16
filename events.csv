@@ -1,4 +1,4 @@
-timestamp, event_type, machine, user
+event_date,event_type,machine_name,user
 2020-01-21 12:45:56, login, myworkstation.local, jordan
 2020-01-22 15:53:42, logout, webserver.local, jordan
 2020-01-21 18:53:21, login, webserver.local, lane
