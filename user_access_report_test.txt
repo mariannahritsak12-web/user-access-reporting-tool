@@ -1,0 +1,9 @@
+MACHINE: myworkstation.local
+--------------------
+- jordan has been logged in for 77978.0s
+
+MACHINE: webserver.local
+--------------------
+- jordan has been logged in for 113621.0s
+- lane is still logged in
+
