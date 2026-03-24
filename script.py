@@ -60,7 +60,7 @@ class UserAccessReport:
       elif event.type.lower() == "logout":
         current_state[event.machine].discard(event.user)
       else:
-        print("Warning: Unknown event type")
+        raise ValueError("Warning: Unknown event type")
 
       if event.date >= start_time:
         for user in current_state[event.machine]:
